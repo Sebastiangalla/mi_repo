@@ -1,70 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>"Madre bakery" </title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>"Madre bakery"</title>
     <link rel="stylesheet" href="style.css">
-</head>
+  </head>
 
-<body>
-        <nav class="header" id="menu">
-            <a href="index.html">
-                <img src="Logo.jpg" alt="Madre bakery" class="logo" href="index.html">
-            </a>
-            <ul class="secciones">
-                <li>
-                   <a href="nosotras.html">Nosotras</a>
-                </li>
-                <li>
-                   <a href="productos.html">Productos</a>
-                <li>
-                   <a href="ubicacion.html">Ubicacion</a>
-                </li>
-                <li>
-                   <a href="horario.html">Horario</a>
-                 </li>
-               <li>Contacto</li>
-               <li>Busqueda laboral</li>
-           </ul>
-         </nav>
-         <br>
-         <br>
-         <img src="foto4.jpeg">
-         <br>
-         <br>
-         <div id="contactenos">
+  <body>
+    <div class="contenedor">
+      <nav class="header" id="menu">
+        <a href="index.html">
+          <img
+            src="Logo.jpg"
+            alt="Madre bakery"
+            class="logo"
+            href="index.html"
+          />
+        </a>
+        <ul class="secciones">
+          <li>
+            <a href="nosotras.html">Nosotras</a>
+          </li>
+          <li>
+            <a href="productos.html">Productos</a>
+          </li>
+
+          <li>
+            <a href="ubicacion.html">Ubicacion</a>
+          </li>
+          <li>
+            <a href="horario.html">Horario</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="contenedor-principal">
+        <div class="contenedor-imagen">
+           <img class="imagen-index" src="foto4.jpeg" />
+        </div>
+            <div id="contactenos">
             <h2>Contáctenos</h2>
             <form action="#" method="get" enctype="multipart/form-data">
                 <fieldset class="formulario">
-                    <label for="Nombre">Nombre y Apellido</label>
-                    <input type="text" name="Nombre" required pattern="[a-zA-Z]+" placeholder="Nombre y Apellido">
-                    <label for="email">Correo electrónico</label>
-                    <input type="email" name="email" required placeholder="Correo electronico">
-                    <label for="telefono">Teléfono</label>
-                    <input type="tel" name="teléfono" pattern="[0-9]+" required placeholder="Telefono">
-                    <label for="Mensaje">Mensaje</label>
-                    <textarea name="Mensaje" rows="10" cols="50" placeholder="Deja aquí tu mensaje" required></textarea>
-                    <input type="submit" name="enviar" value="enviar">
+                <label for="Nombre">Nombre y Apellido</label>
+                <input
+                    type="text"
+                    name="Nombre"
+                    required
+                    pattern="[a-zA-Z]+"
+                    placeholder="Nombre y Apellido"
+                />
+                <label for="email">Correo electrónico</label>
+                <input
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="Correo electronico"
+                />
+                <label for="telefono">Teléfono</label>
+                <input
+                    type="tel"
+                    name="teléfono"
+                    pattern="[0-9]+"
+                    required
+                    placeholder="Telefono"
+                />
+                <label for="Mensaje">Mensaje</label>
+                <textarea
+                    name="Mensaje"
+                    rows="10"
+                    cols="50"
+                    placeholder="Deja aquí tu mensaje"
+                    required
+                ></textarea>
+                <input type="submit" name="enviar" value="enviar" />
                 </fieldset>
-    
             </form>
-    
-        </div>
-        <footer id="Pie-de-pagina">
-            <h4> seguinos en nuestras redes:</h4> 
-          
-                <ul class="redessociales">
-                   <ul>
-                       <a href="instagram">instagram</a>
-                   </ul>
-                   <ul>
-                        <a href="facebook">facebook</a>
-                   </ul>
-               <ul>
-           </footer>
-</body>
-
+            </div>
+        <footer id="pie-de-pagina">
+          <h4>Seguinos en nuestras redes:</h4>
+          <ul>
+            <a href="instagram">Instagram</a>
+          </ul>
+          <ul>
+            <a href="facebook">Facebook</a>
+          </ul>
+        </footer>
+      </div>
+    </div>
+  </body>
 </html>
