@@ -16,8 +16,8 @@ body {
 }
 
 .contenedor {
-  display: grid;
-  grid-template-columns: 1;
+/*  display: grid;
+  grid-template-columns: 1;*/
   background-image: url("./fondo\ de\ la\ pagina.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -113,7 +113,7 @@ input[type="submit"]:hover{
   list-style: circle;
   margin-top: 20px;
   font-size: 2rem;
-  list-style: disc; 
+  list-style: disc;
 }
 .listaproductos li{
   margin-top: 5px;

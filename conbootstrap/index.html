@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>"Madre bakery"</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+
+  <body class="bg-light">
+    <div class="">
+      <nav class="d-flex justify-content-between bg-danger bg-gradient" style="--bs-bg-opacity: .2;" id="menu">
+        <a href="index.html">
+          <img
+            src="Logo.jpg"
+            alt="Madre bakery"
+            class="logo"
+            href="index.html"
+          />
+        </a >
+        <ul class="d-flex list-unstyled align-items-center">
+          <li class="data-mdb-attribute">
+            <a class="p-5 text-decoration-none font text-dark" href="nosotras.html">Nosotras</a>
+          </li>
+          <li>
+            <a class="p-5 text-decoration-none font text-dark" href="productos.html">Productos</a>
+          </li>
+          <li >
+            <a class="p-5 text-decoration-none font text-dark" href="ubicacion.html">Ubicacion</a>
+          </li>
+          <li >
+            <a class="p-5 text-decoration-none font text-dark" href="horario.html">Horario</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="">
+        <div class="d-flex justify-content-center">
+           <img  class="w-100" src="foto4.jpeg" />
+        </div>
+            <div class="d-flex justify-content-center flex-column align-items-center">
+            <h2 class="mt-5">Contáctenos</h2>
+            <form  action="#" method="get" enctype="multipart/form-data">
+                <fieldset class="d-flex justify-content-center flex-column">
+                <label class="my-3" for="Nombre">Nombre y Apellido</label>
+                <input class="w-100"
+                    type="text"
+                    name="Nombre"
+                    required
+                    pattern="[a-zA-Z]+"
+                    placeholder="Nombre y Apellido"
+                />
+                <label class="my-3" for="email">Correo electrónico</label>
+                <input class="w-100"
+                    type="email"
+                    name="email"
+                    required
+                    placeholder="Correo electronico"
+                />
+                <label class="my-3" for="telefono">Teléfono</label>
+                <input class="w-100"
+                    type="tel"
+                    name="teléfono"
+                    pattern="[0-9]+"
+                    required
+                    placeholder="Telefono"
+                />
+                <label class="my-3" for="Mensaje">Mensaje</label>
+                <textarea class="w-100"
+                    name="Mensaje"
+                    rows="10"
+                    cols="50"
+                    placeholder="Deja aquí tu mensaje"
+                    required
+                ></textarea>
+                <input class="btn-primary btn w-25 mt-3 m-auto" type="submit" name="enviar" value="enviar" />
+                </fieldset>
+            </form>
+            </div>
+        <footer id="pie-de-pagina">
+          <h4>Seguinos en nuestras redes:</h4>
+          <ul>
+            <a href="instagram">Instagram</a>
+          </ul>
+          <ul>
+            <a href="facebook">Facebook</a>
+          </ul>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
